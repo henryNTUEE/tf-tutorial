@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 2G
+  instances: 1
+  domain: mybluemix.net
+  name: tensorflow-lyrics-bot-2017
+  host: tensorflow-lyrics-bot-2017
+  disk_quota: 2G
+  buildpack: python_buildpack
+  health-check-type: process
